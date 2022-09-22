@@ -1,3 +1,17 @@
+# Added some Dockefiles
+## To run prod
+
+$ sudo docker build -f Dockerfile.prod -t hello-world:prod .
+$ sudo docker run -it --rm -p 8787:80 hello-world:prod
+
+## Some commands to use
+
+$ sudo docker ps
+$ sudo docker exec -it <Container ID> sh
+
+Link to documentation
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
